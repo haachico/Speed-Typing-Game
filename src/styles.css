@@ -1,0 +1,52 @@
+@import url("https://fonts.cdnfonts.com/css/arcade-classic");
+
+body {
+  background-color: black;
+}
+.App {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  color: #22c55e;
+}
+
+.main--body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textarea {
+  margin-top: 2rem;
+  font-family: "Press Start 2P", cursive;
+  height: 18rem;
+  width: 30rem;
+  background-color: #22c55e;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+textarea:disabled {
+  background-color: #a5a2a2;
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  height: 3rem;
+  width: 7rem;
+  font-size: 1.5rem;
+  background-color: #22c55e;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.random--text {
+  background-color: #22c55e;
+  color: black;
+  width: 18rem;
+  padding: 1rem;
+  text-align: left;
+}
